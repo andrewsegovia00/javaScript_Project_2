@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="a2_style.css">
+
+    <title>Assignment #2</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="hyperlinks2.js"></script>
+    <script src="PageColors.js"></script>
+</head>
+
+<body id="backCol" class="backCol">
+    <div class="outerOuterBox">
+        <div class="outerBox">
+            <div id="jqLinks" class="hyperlinks">
+                <a href="a1.htm">Assignment #1</a><br>
+                <h2 class="header">
+                    Assignment #2
+                </h2>
+                <a href="a3.htm">Assignment #3</a><br>
+                <a href="a4.htm">Assignment #4</a><br>
+                <a href="a5.htm">Assignment #5</a><br>
+            </div>
+            <div class="overallText">
+                <form id="titleForm" class="titleForm">
+                    <h2 class="title">Working with form elements using Javascript's addEventListener</h2>
+                    <div class="leftJsColumn">
+                        <div class="jsRadio">
+                            <input type="radio" class="radioBox" name="radioCol" id="#e52b50" value="">
+                            <label>Amaranth</label>
+                            <input type="radio" class="radioBox" name="radioCol" id="#deb887" value="">
+                            <label>Burlywood</label>
+                            <input type="radio" class="radioBox" name="radioCol" id="#899ba9" value="">
+                            <label>Zunisha</label>
+                        </div>
+                        <label for="jsColorText" class="inputHeader"> Input a color name or a hexidecimal
+                            value</label><br>
+                        <input type="text" id="jsColorText" class="inputText"><br>
+                        <div class="jsButtons">
+                            <input type="button" name="butName" value="Indigo" id="indigo">
+                            <input type="button" name="butName" value="Army Green" id="#454b1b">
+                            <input type="button" name="butName" value="Amethyst " id="#9966cc">
+                        </div>
+                    </div>
+                    <div class="rightJsColumn">
+                        <form>
+                            <select size="1" id="jsDrop">
+                                <option>---Choose---</option>
+                                <option value="#ace1af" id="Celadon">Celadon</option>
+                                <option value="#e1acde" id="Plum">Plum</option>
+                                <option value="#acdee1" id="Powder Blue">Powder Blue</option>
+                            </select><br><br>
+                        </form>
+                        <div class="jsCheckboxes">
+                            <input type="checkbox" name="checkCol" value="Gold" id="gold" class="checkboxes">
+                            <label class=checkbox>Gold</label>
+                            <input type="checkbox" name="checkCol" value="Pink" id="pink" class="checkboxes">
+                            <label class="checkbox">Pink</label>
+                            <input type="checkbox" name="checkCol" value="Grey" id="grey" class="checkboxes">
+                            <label class="checkbox">Grey</label>
+                        </div>
+                        <div class="jsParagraphs">
+                            <p name="pCol" id="#e1caac" value="#e1caac" style="cursor: pointer;">
+                                Zinnwaldite Backgoround</p>
+                            <p name="pCol" id="#f5eee4" value="#f5eee4" style="cursor: pointer;">Linen Background</p>
+                            <p name="pCol" id="#2A2826" value="#2A2826" style="cursor: pointer;">Bokara Background</p>
+                        </div>
+                    </div>
+                </form>
+                <!-- // Jquery -->
+                <div>
+                    <form class="titleForm">
+                        <h2 class="title">Working with form elements using jQuery</h2>
+                        <div class="jqleftJsColumn">
+                            <div id="jqRadio" class="jqRadio">
+                                <input type="radio" id="Glaucous" class="jqRadioIn" value="#6082B6">
+                                <label>Glaucous</label>
+                                <input type="radio" id="Skobeloff" class="jqRadioIn" value="#007474">
+                                <label>Skobeloff</label>
+                                <input type="radio" id="Feldgrau" class="jqRadioIn" value="#4d5d53">
+                                <label>Feldgrau</label>
+                            </div>
+                            <label for="jqColorText" class="windowText"> Input a color name or a hexidecimal
+                                value</label><br>
+                            <input type="text" id="jqColorText" class="inputText"><br>
+                            <div id="jqForm" class="jqForm">
+                                <input type="button" class="jqBtn" value="Mountbatten" id="#997a8d">
+                                <input type="button" class="jqBtn" value="Phlox" id="#df00ff">
+                                <input type="button" class="jqBtn" value="Opaque Green" id="#7e997a">
+                            </div>
+                        </div>
+                        <div class="jqrightJsColumn">
+                            <div id="jqDrop" class="jqDrop">
+                                <select name="jqDrop" size="1">
+                                    <option>---Choose---</option>
+                                    <option value="#5a0107">#5a0107</option>
+                                    <option value="#94846c">#94846c</option>
+                                    <option value="#F0FEAF">#F0FEAF</option>
+                                </select><br><br>
+                            </div>
+                            <div id="jqCheckboxes" class="jqCheckboxes">
+                                <input type="checkbox" value="#defec8" class="jqCheckbox">
+                                <label>#defec8</label>
+                                <input type="checkbox" value="#a55" class="jqCheckbox">
+                                <label>#a55</label>
+                                <input type="checkbox" value="#de1e7e" class="jqCheckbox">
+                                <label>#de1e7e</label>
+                            </div>
+                            <div id="jqParagraphs" class="jqParagraphs">
+                                <p value="Silver" id="Silver" class="jqPar">Silver Background</p>
+                                <p value="#800000" id="#800000" class="jqPar">Maroon Background</p>
+                                <p value="Yellow" id="Yellow" class="jqPar">Yellow Background</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

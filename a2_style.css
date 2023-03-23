@@ -1,0 +1,140 @@
+a:link {
+    font-family: Arial;
+    color: red;
+    margin: 15px 0px 20px 40px;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    padding: 4px 5px 4px 5px;
+}
+
+a {
+    font-weight: bold;
+}
+
+.hyperlinks {
+    display: grid;
+    justify-content: left;
+    align-items: left;
+    height: fit-content;
+    display: inline-block
+}
+
+.header {
+    color: black;
+    font-family: arial;
+    text-align: left;
+    padding: 10px 30px 5px 20px;
+    font-size: 14px;
+    text-decoration: underline overline;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+.outerBox {
+    margin-top: -10px;
+    width: 55w;
+    height: 100%;
+    border: 5px;
+    border-color: black;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+
+.outerOuterBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overallText {
+    /* display: inline-block;
+    vertical-align: top;
+    font-family: arial; */
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px 0px 40px 0px;
+}
+
+.titleForm {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 15px 15px 0px 15px;
+    margin: 15px 15px 15px 15px;
+    grid-gap: 10px;
+}
+
+.leftJsColumn {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 25px 0px 0px;
+    text-align: center;
+    display: justify-content;
+}
+
+.jsRadio {
+    font-size: 15px;
+    margin: 0px 0px 0px 30x;
+}
+
+.jsButtons {
+    width: fit-content;
+    height: 20px;
+    margin: 15px 0px 0px 30px;
+}
+
+.inputText {
+    width: 180px;
+    margin-bottom: 15px;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(151, 151, 151);
+}
+
+.rightJsColumn {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.jsDrop {
+    margin: 0px 10px 10px 10px;
+}
+
+.jqleftJsColumn {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 25px 0px 0px;
+}
+
+.jqRadio {
+    margin-bottom: 30px;
+}
+
+.jqBtn {
+    width: fit-content;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.jqrightJsColumn {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btnBackground {
+    background-color: yellow;
+    border-color: none;
+    color: black !important;
+}
